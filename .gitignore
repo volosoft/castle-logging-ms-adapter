@@ -3,6 +3,7 @@
 
 # Nuget packages
 nupkg/push.bat
+!nuget.exe
 
 # User-specific files
 *.suo
