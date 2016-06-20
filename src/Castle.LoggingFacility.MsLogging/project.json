@@ -4,7 +4,7 @@
   "authors": [ "Halil İbrahim Kalkan" ],
   "projectUrl": "https://github.com/volosoft/castle-windsor-ms-adapter",
   "licenseUrl": "https://github.com/volosoft/castle-windsor-ms-adapter/blob/master/LICENSE",
-  "tags": [ "Windsor", "Castle", "AspNetCore", "DI", "IoC", "DNX", "DependencyInjection", "Extensions" ],
+  "tags": [ "Castle", "Logging", "Extensions" ],
 
   "dependencies": {
     "Castle.LoggingFacility": "3.3.0",
