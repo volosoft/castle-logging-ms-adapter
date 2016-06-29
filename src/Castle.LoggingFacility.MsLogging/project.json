@@ -1,14 +1,9 @@
 ﻿{
-  "version": "0.1.0-*",
-  "description": "Castle Logging Adapter for Microsoft.Extensions.Logging Package",
-  "authors": [ "Halil İbrahim Kalkan" ],
-  "projectUrl": "https://github.com/volosoft/castle-windsor-ms-adapter",
-  "licenseUrl": "https://github.com/volosoft/castle-windsor-ms-adapter/blob/master/LICENSE",
-  "tags": [ "Castle", "Logging", "Extensions" ],
+  "version": "1.0.0-*",
 
   "dependencies": {
     "Castle.LoggingFacility": "3.3.0",
-    "Microsoft.Extensions.Logging": "1.0.0-rc2-final"
+    "Microsoft.Extensions.Logging": "1.0.0"
   },
 
   "frameworks": {
@@ -21,6 +16,19 @@
       "dependencies": {
 
       }
+    }
+  },
+
+  "packOptions": {
+    "summary": "Castle Logging Adapter for Microsoft.Extensions.Logging Package",
+    "tags": [ "Castle", "Logging", "Extensions" ],
+    "owners": [ "Halil İbrahim Kalkan" ],
+    "projectUrl": "https://github.com/volosoft/castle-logging-ms-adapter",
+    "licenseUrl": "https://github.com/volosoft/castle-logging-ms-adapter/blob/master/LICENSE",
+    "requireLicenseAcceptance": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/volosoft/castle-logging-ms-adapter"
     }
   }
 }
