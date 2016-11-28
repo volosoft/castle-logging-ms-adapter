@@ -1,11 +1,11 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.1.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
-    "Castle.LoggingFacility.MsLogging": "1.0.0-*"
+    "Castle.LoggingFacility.MsLogging": "1.1.0-*"
   },
 
   "frameworks": {
