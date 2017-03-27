@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionPrefix>1.1.0</VersionPrefix>
+    <TargetFramework>net452</TargetFramework>
+    <AssemblyName>Castle.LoggingFacility.MsLogging</AssemblyName>
+    <PackageId>Castle.LoggingFacility.MsLogging</PackageId>
+    <PackageTags>Castle;Logging;Extensions</PackageTags>
+    <PackageProjectUrl>https://github.com/volosoft/castle-logging-ms-adapter</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/volosoft/castle-logging-ms-adapter/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/volosoft/castle-logging-ms-adapter</RepositoryUrl>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.LoggingFacility" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <Reference Include="System.Runtime" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
