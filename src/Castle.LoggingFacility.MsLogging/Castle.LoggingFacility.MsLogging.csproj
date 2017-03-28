@@ -16,10 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Castle.Core" Version="5.0.0" />
-    <PackageReference Include="Castle.Core.DynamicProxy" Version="5.0.0" />
-    <PackageReference Include="Castle.Facilities.Logging" Version="5.0.0" />
-    <PackageReference Include="Castle.Windsor" Version="5.0.0" />
+    <PackageReference Include="Fortress.Facilities.Logging" Version="0.5.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
   </ItemGroup>
 
