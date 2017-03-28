@@ -16,14 +16,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Fortress.Facilities.Logging" Version="0.5.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
+    <PackageReference Include="Fortress.Facilities.Logging" Version="0.5.0" />
+  </ItemGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <Reference Include="System.Runtime" />
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+    <PackageReference Include="Castle.LoggingFacility" Version="3.4.0" />
   </ItemGroup>
 
 </Project>
