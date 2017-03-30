@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
-    <PackageReference Include="Fortress.Facilities.Logging" Version="0.6.0" />
+    <PackageReference Include="Fortress.Facilities.Logging" Version="0.6.1" />
   </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
