@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>2.0.1</VersionPrefix>
+    <VersionPrefix>2.0.0-preview1</VersionPrefix>
     <TargetFrameworks>net452;netstandard1.5</TargetFrameworks>
     <AssemblyName>Castle.LoggingFacility.MsLogging</AssemblyName>
     <PackageId>Castle.LoggingFacility.MsLogging</PackageId>
@@ -16,11 +16,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="bin\Release\net452\Castle.LoggingFacility.MsLogging.pdb">
+      <PackagePath>lib/net452/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Update="bin\Release\netstandard1.5\Castle.LoggingFacility.MsLogging.pdb">
+      <PackagePath>lib/netstandard1.5/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
-    <PackageReference Include="Fortress.Facilities.Logging" Version="0.6.1" />
+    <PackageReference Include="Fortress.Facilities.Logging" Version="0.5.175" />
   </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
