@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>3.0.0</VersionPrefix>
+    <VersionPrefix>3.1.0</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Castle.LoggingFacility.MsLogging</AssemblyName>
     <PackageId>Castle.LoggingFacility.MsLogging</PackageId>
@@ -24,8 +24,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
-    <PackageReference Include="Castle.LoggingFacility" Version="4.0.0" />
-    <PackageReference Include="Castle.Core" Version="4.1.1" />
+    <PackageReference Include="Castle.LoggingFacility" Version="4.1.0" />
+    <PackageReference Include="Castle.Core" Version="4.2.1" />
   </ItemGroup>
 
 </Project>
